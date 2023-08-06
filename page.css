@@ -98,34 +98,3 @@ body {
     text-align: center;
     padding: 10px 0;
   }
-
-/* Your existing styles for the header, sections, and footer go here */
-
-/* Rest of your styles go here (include .project, .skills-list, .social-links, etc.) */
-
-/* New styles for the overlay and terminal section */
-#terminal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity (0.5) as needed */
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-.show-terminal #terminal-overlay {
-  display: flex;
-}
-
-#terminal-section {
-  /* Customize the terminal section appearance */
-  background-color: #111;
-  color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  max-width: 600px; /* Set the max width to control the terminal's width */
-}
